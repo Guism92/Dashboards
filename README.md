@@ -17,3 +17,8 @@ git log -- oneline
 # Status
 git status
 
+# Commit
+git commit arquivo.formato -m "Mensagem"
+
+# Push
+git push origin main 
