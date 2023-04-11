@@ -29,8 +29,21 @@ git commit arquivo.formato -m "Mensagem"
 
 # Push
 git push origin main 
+git push origin desenvolvimento
 
 # Restore
 git restore --source a0c893b app.js
 ## Restore de tudo
 git restore --source a0c893b .
+
+# Adiciona uma página NOVA
+git add contato.html
+# Adiciona todas as NOVAS páginas criadas
+git add .
+
+# Criar uma branch de desenvolvimento
+git checkout -b desenvolvimento 
+
+# Trocar para outra branch
+git switch main
+git switch desenvolvimento
